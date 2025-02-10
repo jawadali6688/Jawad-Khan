@@ -30,7 +30,7 @@ const Intro = () => {
 
         {/* Buttons */}
         <motion.div
-          className="mt-8 flex justify-center gap-6"
+          className="mt-8 flex flex-col md:flex-row justify-center gap-6"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -42,11 +42,11 @@ const Intro = () => {
           >
             View Projects
           </Link>
-          <div className="flex justify-center">
+          <div className="flex justify-center ">
       <a
         href="/resume.pdf" // Path to your resume in the public folder
         download="Jawad_Khan_Resume.pdf" // Custom file name when downloaded
-        className="flex items-center space-x-2 px-4 md:px-6 py-3 border border-orange-500 text-orange-500 font-semibold rounded-lg shadow-lg hover:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-105 cursor-pointer"
+        className="flex w-full justify-center items-center space-x-2 px-4 md:px-6 py-3 border border-orange-500 text-orange-500 font-semibold rounded-lg shadow-lg hover:bg-orange-500 hover:text-white active:bg-orange-500 active:text-white transition-all duration-300 transform hover:scale-105 cursor-pointer"
       >
         <svg
           className="w-6 h-6"

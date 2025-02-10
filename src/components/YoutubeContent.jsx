@@ -38,7 +38,7 @@ const YoutubeContent = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <FaYoutube className="text-red-600 text-5xl" /> My YouTube Content
+          <FaYoutube className="hidden md:flex text-red-600 text-5xl" /> My YouTube
         </motion.h2>
 
         <p className="text-gray-600 dark:text-gray-300 mt-4 text-lg">
@@ -77,10 +77,10 @@ const YoutubeContent = () => {
           href="https://www.youtube.com/channel/your-channel"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-10 flex inline-block bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-700 transition-all"
+          className="mt-10 flex inline-block bg-red-600 text-white  px-4 md:px-6 py-3 rounded-lg text-lg font-semibold hover:bg-red-700 transition-all"
         >
            <span className="flex gap-2 items-center">
-           <FaYoutube className="text-gray-100 text-5xl" />
+           {/* <FaYoutube className="text-gray-100 text-5xl" /> */}
            <span>
            Visit My YouTube Channel
            </span>

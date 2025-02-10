@@ -86,7 +86,7 @@ const AboutMe = () => {
             className="space-y-6"
           >
             {/* Introduction */}
-            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p className="text-md md:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               <Markdown>
               I’m an **experienced Full Stack Developer** specializing in **MERN, Next.js, and Django**,  
 building **scalable web applications** for companies and startups.  
@@ -131,10 +131,10 @@ Passionate about **AI and Generative AI**, I integrate **machine learning models
                 Experience & Education
               </h3>
               <ul className="mt-4 space-y-3">
-                <li className="flex items-center text-gray-700 dark:text-gray-300 text-lg">
+                <li className="flex items-center text-gray-700 dark:text-gray-300 text-md md:text-lg">
                   🎯 <Markdown className="ml-2">**Co-Founder | JSF Solutions** (Present)</Markdown>
                 </li>
-                <li className="flex items-center text-gray-700 dark:text-gray-300 text-lg">
+                <li className="flex items-center text-gray-700 dark:text-gray-300 text-md md:text-lg">
                   🎓 <Markdown className="ml-2">**Bachelor's in Artificial Intelligence | 7th Semester**</Markdown>
                 </li>
               </ul>

@@ -7,14 +7,13 @@ const blogsData = [
   {
     id: 1,
     title: "Mastering React Hooks",
-    description: `React Hooks revolutionized functional components.  
-      
-      **Key Hooks:**  
-      - \`useState\` for state management  
-      - \`useEffect\` for side effects  
-      - \`useContext\` for global state  
-      
-      Learn how to leverage these for building efficient apps!`,
+    description: `React Hooks revolutionized functional components.
+
+Key Hooks:
+useState → Manage component state.
+useEffect → Handle side effects.
+useContext → Access global state.
+Learn how to leverage these hooks to build efficient and scalable React applications!`,
     image: "https://th.bing.com/th/id/OIP.byF4YDSMRBwtKi0wWgiqAQAAAA?rs=1&pid=ImgDetMain",
   },
   {
@@ -22,7 +21,7 @@ const blogsData = [
     title: "Django vs Flask: Which One to Choose?",
     description: `Django and Flask are two powerful Python frameworks.  
       
-      **Comparison:**  
+      Comparison:
       - 🏗️ Django: Full-featured, batteries included  
       - ⚡ Flask: Lightweight, minimal, flexible  
       
@@ -34,9 +33,9 @@ const blogsData = [
     title: "AI Trends in 2025",
     description: `AI is advancing at an exponential pace.  
       
-      🚀 **Upcoming Trends:**  
+      🚀Upcoming Trends: 
       - GPT-5 and multimodal AI  
-      - AI-powered **self-driving** advancements  
+      - AI-powered self-driving advancements  
       - Ethical AI & responsible innovation  
       
       The future is now!`,
@@ -47,9 +46,9 @@ const blogsData = [
     title: "Optimizing MERN Stack Apps",
     description: `MERN stack is powerful, but optimization is key!  
       
-      **Tips:**  
-      - Use **indexing** in MongoDB for faster queries  
-      - Implement **React Lazy Loading**  
+      Tips: 
+      - Use indexing in MongoDB for faster queries  
+      - Implement React Lazy Loading 
       - Optimize API calls with caching  
       
       Build efficient and scalable apps!`,

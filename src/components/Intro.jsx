@@ -42,13 +42,25 @@ const Intro = () => {
           >
             View Projects
           </Link>
-          <Link
-            to="contact"
-            smooth={true}
-            className="px-4 md:px-6 py-3 border border-orange-500 text-orange-500 font-semibold rounded-lg shadow-lg hover:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-105 cursor-pointer"
-          >
-            Hire Me
-          </Link>
+          <div className="flex justify-center">
+      <a
+        href="/resume.pdf" // Path to your resume in the public folder
+        download="Jawad_Khan_Resume.pdf" // Custom file name when downloaded
+        className="flex items-center space-x-2 px-4 md:px-6 py-3 border border-orange-500 text-orange-500 font-semibold rounded-lg shadow-lg hover:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-105 cursor-pointer"
+      >
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-8m-4 4l4 4m0 0l4-4m-4 4V4m-6 16h12" />
+        </svg>
+        <span>Download Resume</span>
+      </a>
+    </div>
         </motion.div>
       </div>
     </section>

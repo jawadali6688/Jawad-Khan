@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <nav className="bg-gray-100 dark:bg-slate-900 shadow-md fixed w-full z-50">
+    <nav className="bg-gray-100 dark:bg-slate-900 shadow-md fixed w-full z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
@@ -36,7 +36,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {["Home", "About", "Projects", "Blogs", "Contact"].map((item) => (
+            {["Home", "About", "Code With Me", "Projects", "Blogs", "Contact"].map((item) => (
               <Link
                 key={item}
                 to={item.toLowerCase()}
@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
 
           {/* Right Section (Dark Mode & Mobile Menu) */}
-          <div className="flex items-center space-x-4">
+          <div className="hidden flex items-center space-x-4">
             {/* Dark Mode Toggle */}
             <button
               onClick={() => setDarkMode(!darkMode)}

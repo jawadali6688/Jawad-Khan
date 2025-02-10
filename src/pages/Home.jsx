@@ -5,12 +5,14 @@ import Projects from './Projects'
 import Blogs from './Blogs'
 import Contact from './Contact'
 import Footer from './Footer'
+import CodeWithMe from './CodeWithMe'
 
 export default function Home() {
   return (
     <>
     <Intro />
     <AboutMe />
+    <CodeWithMe />
     <Projects />
     <Blogs />
     <Contact />

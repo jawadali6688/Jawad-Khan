@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { FaLinkedin, FaWhatsapp, FaYoutube, FaGithub } from "react-icons/fa";
 
 const MyFooter = () => {
   return (
@@ -42,38 +43,47 @@ const MyFooter = () => {
         {/* Right Section - Social Media Links */}
         <div>
           <h3 className="text-xl font-semibold text-white">Follow Me</h3>
-          <div className="flex space-x-4 mt-2">
-            <a
-              href="https://github.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-orange-500 text-2xl transition"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-orange-500 text-2xl transition"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-orange-500 text-2xl transition"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="mailto:your@email.com"
-              className="text-gray-400 hover:text-orange-500 text-2xl transition"
-            >
-              <FaEnvelope />
-            </a>
-          </div>
+          <div className=" flex mt-4 gap-6">
+                    <motion.a
+                      href="https://linkedin.com/in/jawad-khan-a28505326"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 dark:text-gray-100 text-2xl hover:text-blue-600"
+                      whileHover={{ scale: 1.2 }}
+                    >
+                      <FaLinkedin size={35} />
+                    </motion.a>
+          
+                    <motion.a
+                      href="https://wa.me/+923057573688?text=Hello%2C%20I%20am%20interested%20in%20your%20services.
+          "           target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 dark:text-gray-100 text-2xl hover:text-green-500"
+                      whileHover={{ scale: 1.2 }}
+                    >
+                      <FaWhatsapp size={35}  />
+                    </motion.a>
+          
+                    <motion.a
+                      href="https://www.youtube.com/@Jawad_khan6686"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 dark:text-gray-100 text-2xl hover:text-red-600"
+                      whileHover={{ scale: 1.2 }}
+                    >
+                      <FaYoutube size={35}  />
+                    </motion.a>
+          
+                    <motion.a
+                      href="https://github.com/jawadali6688"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 dark:text-gray-100 text-2xl hover:text-gray-600"
+                      whileHover={{ scale: 1.2 }}
+                    >
+                      <FaGithub size={35}  />
+                    </motion.a>
+                  </div>
         </div>
       </div>
 
